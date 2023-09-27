@@ -14,7 +14,7 @@
 ### Afternoon 1: Topic Higher- order SAT.
 
 * 14:00-14:30 Jie-Hong Roland  [Second-order Boolean QBF]
-* 14:30-15:00 Hiroshi Unno     [Modular Primal-Dual Fixpoint Logic Solving for Temporal Verification (POPL 2023 paper)]
+* 14:30-15:00 Hiroshi Unno     [Modular Primal-Dual Fixpoint Logic Solving for Temporal Verification]
 * 15:00-15:30 Tachio Terauchi  [Synthesizing regular expressions]
   
 * 15:30-16:00 break 
@@ -125,3 +125,13 @@ __Title__: Isomorph-Free Generation of Combinatorial Objects with SAT Modulo Sym
 
 __Abstract__: SAT modulo Symmetries (SMS) is a framework for the exhaustive isomorph-free generation of combinatorial objects with a prescribed property. SMS relies on the tight integration of a CDCL SAT solver with a custom dynamic symmetry-breaking algorithm that iteratively refines an ordered partition of the generated object's elements. SMS utilizes the IPASIR-UP interface and hence can work with any solver implements this interface. SMS supports DRAT proofs for the SAT solver's reasoning and offline verification of the symmetry-breaking clauses, and thus provides an additional layer of confidence in the obtained results. This talk will discuss the basic concepts of SMS and review some recent applications on graphs, digraphs, hypergraphs, and matroids. 
 Joint work with Katalin Fazekas, Markus Kichweger, Tomas Peitl, and Manfred Scheucher.
+
+## Hiroshi Unno
+
+__Title__: Modular Primal-Dual Fixpoint Logic Solving for Temporal Verification
+
+__Abstract__: We present a novel approach to deciding the validity of formulas in first-order fixpoint logic with background theories and arbitrarily nested inductive and co-inductive predicates defining least and greatest fixpoints. Our approach is constraint-based, and reduces the validity checking problem of the given first-order-fixpoint logic formula (formally, an instance in a language called µCLP) to a constraint satisfaction problem for a recently introduced predicate constraint language.
+
+Coupled with an existing sound-and-relatively-complete solver for the constraint language, this novel reduction alone already gives a sound and relatively complete method for deciding µCLP validity, but we further improve it to a novel modular primal-dual method. The key observations are (1) µCLP is closed under complement such that each (co-)inductive predicate in the original primal instance has a corresponding (co-)inductive predicate representing its complement in the dual instance obtained by taking the standard De Morgan’s dual of the primal instance, and (2) partial solutions for (co-)inductive predicates synthesized during the constraint solving process of the primal side can be used as sound upper-bounds of the corresponding (co-)inductive predicates in the dual side, and vice versa. By solving the primal and dual problems in parallel and exchanging each others’ partial solutions as sound bounds, the two processes mutually reduce each others’ solution spaces, thus enabling rapid convergence. The approach is also modular in that the bounds are synthesized and exchanged at granularity of individual (co-)inductive predicates.
+
+We demonstrate the utility of our novel fixpoint logic solving by encoding a wide variety of temporal verification problems in µCLP, including termination/non-termination, LTL, CTL, and even the full modal µ-calculus model checking of infinite state programs. The encodings exploit the modularity in both the program and the property by expressing each loops and (recursive) functions in the program and sub-formulas of the property as individual (possibly nested) (co-)inductive predicates. Together with our novel modular primal-dual µCLP solving, we obtain a novel approach to efficiently solving a wide range of temporal verification problems.
