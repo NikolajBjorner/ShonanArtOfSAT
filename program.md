@@ -45,9 +45,9 @@ Evening: Demos and social interaction.
 ### Afternoon 1: Topic session on encoding (part II). 
 
 
-* 14:00-14:30       Shin-ichi Minato  [Encoding techniques and applications]
-* 14:30-15:00       Kristin Rozier    [SAT based explicit LTL satisfiability checking]
-* 15:00-15:30       Marijn Heule      [Encoding]
+* 14:00-14:30       Kristin Rozier    [SAT based explicit LTL satisfiability checking]
+* 14:30-15:00       Marijn Heule      [Encoding]
+* 15:00-15:30       [open]
 * 15:30-16:00 break 
 
 
@@ -63,29 +63,29 @@ Evening: Demos and social interaction.
 
 ### Morning 1: Certificates, Search, and Beyond
 
-* 9-9:45: Jakob Nordstroem [Unified proof logging system with support for things like]
-* 9:45-10:15   Oliver Kullmann 
+* 9-9:45:      Jakob Nordstroem [A Unified proof logging system]
+* 9:45-10:15   Nina Narodytska [Invariant generation using LLMs]
 
 ### Morning 2: 
 
 
-* 11:00-11:30       Roopsha Samanta  - [Nikolaj - synthesis of procedures - visa situation unclear]
-* 11:30-12:00       Katsumi Inoue [parallel, encode ASP, logic programming]
+* 11:00-11:30       Roopsha Samanta  - [synthesis of procedures - visa situation unclear]
+* 11:30-12:00       Nikolaj Bjorner [On Incremental inprocessing for SMT]
 
 ### Afternoon: excursion
 
 ## Thursday
 
-* 9-9:30:            Nina Narodytska [Invariant generation using LLMs]  
-* 9:30-10:00         Matti Jaervisallo 
-* 10:00-10:30        Nikolaj Bjorner [On Incremental inprocessing for SMT]
+* 9-9:30:              
+* 9:30-10:00         
+* 10:00-10:30        
 
 ## Unconfirmed
 
-* Katsumi Inoue (parallel, encode ASP, logic programming) 
+* Katsumi Inoue 
 * Oliver Kullmann   
 * Matti Jaervisallo     
-* Shin-ichi Minato - Encoding SAT
+* Shin-ichi Minato 
 
 ## Cancelations
 * Roopsha Samanta  - [visa situation unclear]
