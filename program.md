@@ -109,6 +109,13 @@ Combinatorial Reconfiguration is a novel algorithmic concept that provides mathe
 Combinatorial Reconfiguration Challenge (CoRe Challenge 2022/2023) is a competition aiming for practically exploring the combinatorial reconfiguration.  CoRe Challenge 2022/2023 targets the Independent Set Reconfiguration (ISR) problem. The ISR problem is one of the most well-studied reconfiguration problems. Theoretically, the problem is PSPACE-complete, which implies that there exist instances such that even a shortest reconfiguration sequence requires a super polynomial steps.
 
 
+## Matti Järvisalo
+
+__Title__:
+Incremental Maximum Satisfiability: Interfaces, Solvers and Applications
+
+__Abstract__:
+Enabling incremental computations on the level of constraint optimization remains a noticeable challenge. Boolean satisfiability (SAT) solvers allow for incremental computations, which is key to efficient employment of SAT solvers iteratively for developing complex decision and optimization procedures, including maximum satisfiability (MaxSAT) solvers. However, while incremental computations have been identified to have great potential in speeding up especially so-called unsatisfiability-based MaxSAT solving, enabling incremental computations in MaxSAT has remained until very recently to most extent unexplored. In this talk, I will give an overview of recent developments in incremental MaxSAT, including an API supporting the development of incremental solvers and their applications; the new Incremental Track of MaxSAT Evaluations; current availability of  incremental MaxSAT solvers with some more details on  SAT-IP hybrid approach of implicit hitting sets implemented in iMaxHS; and a glance at recent successful applications of incremental MaxSAT solving.
 
 ## Mutsunori Banbara
 
