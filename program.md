@@ -15,7 +15,7 @@
 
 * 14:00-14:30 Jie-Hong Roland  [Second-order Boolean QBF]
 * 14:30-15:00 Hiroshi Unno     [Modular Primal-Dual Fixpoint Logic Solving for Temporal Verification]
-* 15:00-15:30 Tachio Terauchi  [Synthesizing regular expressions]
+* 15:00-15:30 Tachio Terauchi  [Synthesizing regular expressions]　(this has nothing to do with higher-order - Tachio)
   
 * 15:30-16:00 break 
 
