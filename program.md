@@ -76,15 +76,13 @@ Evening: Demos and social interaction.
 
 ## Thursday
 
-* 9-9:30:              
-* 9:30-10:00         
+* 9-9:30:	Matti Järvisalo [Incremental MaxSAT]
+* 9:30-10:00	Oliver Kullmann   [Transforming QBFs Using Biclique Covers]
 * 10:00-10:30        
 
 ## Unconfirmed
 
 * Katsumi Inoue 
-* Oliver Kullmann   
-* Matti Jaervisallo     
 * Shin-ichi Minato 
 
 ## Cancelations
