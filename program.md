@@ -21,7 +21,7 @@
 
 ### Afternoon 2: Encoding SAT
 
-* 16:00-16:30 Stephan Szeider     [isomph-free SAT modulo symmetries]
+* 16:00-16:30 Stefan Szeider      [isomph-free SAT modulo symmetries]
 * 16:30-17:00 Akihisa Yamada      [Satisfiability and Term Rewriting]  
 * 17:00-18:00 Discussion
   
