@@ -1,13 +1,11 @@
 
-# Participants
-
 # Sessions
 
 ## Monday
 
 ### Morning: 
 
-* 9-9:30: [Participants introduce themselves](Introductions.pttx), introduction of challenge problems.
+* 9-9:30: [Participants introduce themselves](Introductions.pptx), introduction of challenge problems.
 * 9:30-10:30 Armin Biere - the Art of igniting the SAT revolution
 * 10:30-11: Break
 * 11-11:30 Vijay Ganesh: [SAT + CAS: Kochen-Specker, Lam's Problem, Williamson Matrix]
@@ -85,7 +83,8 @@ Evening: Demos and social interaction.
 ## Unconfirmed
 
 * Katsumi Inoue 
-* Shin-ichi Minato 
+* Shin-ichi Minato
+* Sophie Tourret
 
 ## Cancelations
 * Roopsha Samanta  - [visa situation unclear]
