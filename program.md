@@ -65,7 +65,7 @@ Evening: Demos and social interaction.
 
 ### Morning 1: Certificates, Search, and Beyond
 
-* 9-9:45:      Jakob Nordstroem [A Unified proof logging system]
+* 9-9:45:      Jakob Nordström [A Unified proof logging system]
 * 9:45-10:15   Nina Narodytska [Invariant generation using LLMs]
 
 ### Morning 2: 
