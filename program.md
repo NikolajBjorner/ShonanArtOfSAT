@@ -3,27 +3,30 @@
 
 ## Monday
 
-### Morning: 
+### Morning 1: 
 
-* 9-9:30: [Participants introduce themselves](Introductions.pptx), introduction of challenge problems.
-* 9:30-10:30 Armin Biere - the Art of igniting the SAT revolution
-* 10:30-11: Break
-* 11-11:30 Vijay Ganesh: [SAT + CAS: Kochen-Specker, Lam's Problem, Williamson Matrix]
-* 11:30-12 Sam Buss      [Seeking hard SAT instances for constant depth Frege] (encoding/challenge problem)
+* 9-10:00: [Participants introduce themselves](Introductions.pptx), introduction of challenge problems.
+* 10:00-10:30: break
+
+### Morning 2:
+
+* 10:30-11:30 Armin Biere - the Art of igniting the SAT revolution
+* 11:30-12:00 Vijay Ganesh: [SAT + CAS: Kochen-Specker, Lam's Problem, Williamson Matrix]
 
 ### Afternoon 1: Topic Higher- order SAT.
 
 * 14:00-14:30 Jie-Hong Roland Jiang [Second-order Boolean QBF]
 * 14:30-15:00 Hiroshi Unno     [Modular Primal-Dual Fixpoint Logic Solving for Temporal Verification]
-* 15:00-15:30 Tachio Terauchi  [Synthesizing regular expressions]　(this has nothing to do with higher-order - Tachio)
-  
+* 15:00-15:30 Sam Buss      [Seeking hard SAT instances for constant depth Frege] (encoding/challenge problem)
+
 * 15:30-16:00 break 
 
 ### Afternoon 2: Encoding SAT
 
 * 16:00-16:30 Stefan Szeider      [isomph-free SAT modulo symmetries]
-* 16:30-17:00 Akihisa Yamada      [Satisfiability and Term Rewriting]  
-* 17:00-18:00 Discussion
+* 16:30-17:00 Akihisa Yamada      [Satisfiability and Term Rewriting]
+* 17:00-17:30 Tachio Terauchi     [Synthesizing regular expressions]
+* 17:30-18:00 Discussion
   
 
 Evening: Demos and social interaction.
@@ -46,9 +49,8 @@ Evening: Demos and social interaction.
 
 
 * 14:00-14:30       Kristin Rozier    [SAT based explicit LTL satisfiability checking]
-* 14:30-15:00       Marijn Heule      [Encoding]
-* 15:00-15:30       [open]
-* 15:30-16:00 break 
+* 14:30-15:30       Marijn Heule      [The art of encoding happy endings]
+* 15:30-16:00       break 
 
 
 ### Afternoon 2: Topic session on MaxSAT. Breakout session for collaborations.
@@ -68,28 +70,19 @@ Evening: Demos and social interaction.
 
 ### Morning 2: 
 
+* 11:00-11:30:	Matti Järvisalo [Incremental MaxSAT]
+* 11:30-12:00	Oliver Kullmann   [Transforming QBFs Using Biclique Covers]
 
-* 11:00-11:30       Roopsha Samanta  - [synthesis of procedures - visa situation unclear]
-* 11:30-12:00       Nikolaj Bjorner [On Incremental inprocessing for SMT]
 
 ### Afternoon: excursion
 
 ## Thursday
 
-* 9-9:30:	Matti Järvisalo [Incremental MaxSAT]
-* 9:30-10:00	Oliver Kullmann   [Transforming QBFs Using Biclique Covers]
-* 10:00-10:30        
+* 9:00-10:00        Discusion on challenge problems
+* 10:00-10:30       Roopsha Samanta  - [synthesis of recursive procedures]
+* 10:30-11:00       Break
+* 11:00-11:30       Nikolaj Bjorner [On Incremental inprocessing for SMT]
 
-## Unconfirmed
-
-* Katsumi Inoue 
-* Shin-ichi Minato
-* Sophie Tourret
-
-## Cancelations
-* Roopsha Samanta  - [visa situation unclear]
-* Hidetomo Nabeshima  [canceled]
-* Bart Selman  [canceled]
 
 # Abstracts
 
