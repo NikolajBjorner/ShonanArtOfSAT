@@ -66,7 +66,7 @@ Evening: Demos and social interaction.
 ### Morning 1: Certificates, Search, and Beyond
 
 * 9-9:45:      Jakob Nordström [A Unified proof logging system]
-* 9:45-10:15   Nina Narodytska [Invariant generation using LLMs]
+* 9:45-10:15   Shin-Ichi Minato [The Art of Counting Graphs]
 
 ### Morning 2: 
 
@@ -78,11 +78,12 @@ Evening: Demos and social interaction.
 
 ## Thursday
 
-* 9:00-10:00        Discusion on challenge problems
+* 9:00-9:30         Discussion on challenge problems
+* 9:30-10:00        Nina Narodytska [Invariant generation using LLMs]
 * 10:00-10:30       Roopsha Samanta  - [synthesis of recursive procedures]
 * 10:30-11:00       Break
 * 11:00-11:30       Nikolaj Bjorner [On Incremental inprocessing for SMT]
-
+* 11:30-12:00       Discussions 
 
 # Abstracts
 
