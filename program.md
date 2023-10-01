@@ -66,7 +66,7 @@ Evening: Demos and social interaction.
 ### Morning 1: Certificates, Search, and Beyond
 
 * 9-9:45:      Jakob Nordström [A Unified proof logging system]
-* 9:45-10:15   Shin-Ichi Minato [The Art of Counting Graphs]
+* 9:45-10:15   Shin-ichi Minato [The Art of Counting Graphs]
 
 ### Morning 2: 
 
