@@ -66,7 +66,7 @@ Evening: Demos and social interaction.
 
 ### Morning 1: Certificates, Search, and Beyond
 
-* 9-9:45:      Jakob Nordström [A Unified proof logging system]
+* 9-9:45:      Jakob Nordström [A one-size-fits-all proof logging system?]
 * 9:45-10:15   Shin-ichi Minato [The Art of Counting Graphs]
 
 ### Morning 2: 
@@ -82,7 +82,7 @@ Evening: Demos and social interaction.
 * 9:00-10:00        Discussion on challenge problems
 * 10:00-10:30       Roopsha Samanta  - [synthesis of recursive procedures]
 * 10:30-11:00       Break
-* 11:00-11:30       Nikolaj Bjorner [On Incremental inprocessing for SMT]
+* 11:00-11:30       Nikolaj Bjorner [On Incremental preprocessing for SMT]
 * 11:30-12:00       Discussions 
 
 # Abstracts
@@ -135,3 +135,13 @@ __Abstract__: We present a novel approach to deciding the validity of formulas i
 Coupled with an existing sound-and-relatively-complete solver for the constraint language, this novel reduction alone already gives a sound and relatively complete method for deciding µCLP validity, but we further improve it to a novel modular primal-dual method. The key observations are (1) µCLP is closed under complement such that each (co-)inductive predicate in the original primal instance has a corresponding (co-)inductive predicate representing its complement in the dual instance obtained by taking the standard De Morgan’s dual of the primal instance, and (2) partial solutions for (co-)inductive predicates synthesized during the constraint solving process of the primal side can be used as sound upper-bounds of the corresponding (co-)inductive predicates in the dual side, and vice versa. By solving the primal and dual problems in parallel and exchanging each others’ partial solutions as sound bounds, the two processes mutually reduce each others’ solution spaces, thus enabling rapid convergence. The approach is also modular in that the bounds are synthesized and exchanged at granularity of individual (co-)inductive predicates.
 
 We demonstrate the utility of our novel fixpoint logic solving by encoding a wide variety of temporal verification problems in µCLP, including termination/non-termination, LTL, CTL, and even the full modal µ-calculus model checking of infinite state programs. The encodings exploit the modularity in both the program and the property by expressing each loops and (recursive) functions in the program and sub-formulas of the property as individual (possibly nested) (co-)inductive predicates. Together with our novel modular primal-dual µCLP solving, we obtain a novel approach to efficiently solving a wide range of temporal verification problems.
+
+
+## Jakob Nordström
+
+__Title__: A one-size-fits-all proof logging system?
+
+
+__Abstract__: We propose a unified proof logging system for decision problems, optimization problems, model enumeration problems, and problem reformulations, and semantics for composition of such proofs. We discuss some of the challenges in designing such a proof system and the choices made to overcome them. We base our system on pseudo-Boolean reasoning with 0-1 integer linear programs, which is a superset of conjunctive normal form (CNF). This is the only proof system that can currently support all enhanced SAT solving techniques for decision problems, and the language of 0-1 linear inequalities also makes it convenient to reason about linear objective functions. However, to maintain equisatisfiability of decision problems restrictions for how contraints are deleted must be imposed, and this is also crucial to preserve the optimal value of optimization problem instances. In addition, for projected model enumeration, the use of strengthening rules such as RAT and pseudo-Boolean generalizations of RAT must be carefully restricted in order not to change the set of solutions. Finally, precise definitions are needed of what it would mean to rewrite the objective function and/or constraints of a problem instance while keeping it "the same", and what the semantics should be for proof compositions if a sequence of solvers operations on (translations of) the same problem instance and emit separate proof logs.
+
+This is based on joint work with Bart Bogaerts, Stephan Gocht, Ciaran McCreesh, Magnus O. Myreen, Andy Oertel, and Yong Kiam Tan.
