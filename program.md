@@ -49,8 +49,9 @@ Evening: Demos and social interaction.
 
 
 * 14:00-14:30       Kristin Rozier    [SAT based explicit LTLf satisfiability checking]
-* 14:30-15:30       Marijn Heule      [The art of encoding happy endings]
-* 15:30-16:00       break 
+* 14:30-15:15       Marijn Heule      [The art of encoding happy endings]
+* 15:15-15:40       Nina Narodytska   [Invariant generation using LLMs]
+* 15:40-16:00       break 
 
 
 ### Afternoon 2: Topic session on MaxSAT. Breakout session for collaborations.
@@ -78,8 +79,7 @@ Evening: Demos and social interaction.
 
 ## Thursday
 
-* 9:00-9:30         Discussion on challenge problems
-* 9:30-10:00        Nina Narodytska [Invariant generation using LLMs]
+* 9:00-10:00        Discussion on challenge problems
 * 10:00-10:30       Roopsha Samanta  - [synthesis of recursive procedures]
 * 10:30-11:00       Break
 * 11:00-11:30       Nikolaj Bjorner [On Incremental inprocessing for SMT]
