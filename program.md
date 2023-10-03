@@ -35,7 +35,7 @@ Evening: Demos and social interaction.
 
 ### Morning 1: Topic session on building SAT services on top of SAT solvers.
 * 9-9:30: Katalin Fazekas     __IPASIR-UP__
-* 9:30-10:00 Mathias Preiner  __CaDiCaL integration in cvc5__
+* 9:30-10:00 Mathias Preiner  __CaDiCaL(T): CaDiCaL as CDCL(T) Engine in cvc5__
 * 10:00-10:30 Aina Niemetz   __local search word level reasoning, what's new with Bitwula__
 
 
@@ -160,3 +160,24 @@ __Title__: A SAT Solver + Computer Algebra Attack on the Minimum Kochen–Specke
 __Abstract__:
 Two of the most fundamental theorems in quantum foundations are the Kochen-Specker and the Conway-Kochen "Free Will" Theorems. Both these theorems rely on the existence of a finite object called the KS vector system. Despite several decades of effort by leading physicists and mathematicians, the minimum KS system problem for 3-dimensions remains unresolved. In this talk, we present a SAT solver + Computer Algebra (CAS) attack on this problem, and provide a verified computational proof that there are no KS systems of  size 23 or below. To the extent that we know, ours is the first attack on a problem in quantum foundations via a combination of a SAT solver and CAS system.
 
+
+## Mathias Preiner
+__Title__: CaDiCaL(T): CaDiCaL as CDCL(T) Engine in cvc5
+
+__Abstract__:
+cvc5 is a state-of-the-art SMT solver based on the CDCL(T) framework, which
+tightly integrates theory solvers with a CDCL SAT solver at its core.
+The CDCL(T) framework requires a tight integration with the SAT solver in a way
+that allows the theory layer to interact with the SAT solver during search,
+i.e., in an online fashion.
+For this purpose, cvc5 integrates a heavily customized version of MiniSat 2.2.0,
+which was extended to allow this online interaction.
+
+In this talk, I will discuss the integration of CaDiCaL as CDCL(T) SAT engine in
+cvc5 via the recently proposed IPASIR-UP interface. IPASIR-UP is an interface
+for interactive incremental SAT solving for interacting with a CDCL SAT solver
+during search. I will explain in detail how the notifications and callbacks of
+IPASIR-UP are used to establish the communication between cvc5's theory solvers
+and CaDiCaL and how we use it to inspect and influence the CDCL search. I will
+conclude with an evaluation on SMT-LIB and discuss some challenges we
+encountered on incremental SMT-LIB problems.
