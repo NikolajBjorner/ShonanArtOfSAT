@@ -11,7 +11,7 @@
 ### Morning 2:
 
 * 10:30-11:30 Armin Biere   __The Art of igniting the SAT revolution__
-* 11:30-12:00 Vijay Ganesh: __SAT + CAS: Kochen-Specker, Lam's Problem, Williamson Matrix__
+* 11:30-12:00 Vijay Ganesh: [__SAT + CAS: Kochen-Specker, Lam's Problem, Williamson Matrix__](./VijayGanesh Kochen Specker Full Slides.pptx)
 
 ### Afternoon 1: Topic Higher- order SAT.
 
@@ -152,3 +152,11 @@ __Title__: Second-Order Quantified Boolean Logic
 
 __Abstract__: 
 Second-order quantified Boolean formulas (SOQBFs) generalize quantified Boolean formulas (QBFs) by admitting second-order quantifiers on function variables in addition to first-order quantifiers on atomic variables. Recent endeavors establish that the complexity of SOQBF satisfiability corresponds to the exponential-time hierarchy (EXPH), similar to that of QBF satisfiability corresponding to the polynomial-time hierarchy (PH). This fact reveals the succinct expression power of SOQBFs in encoding decision problems not efficiently doable by QBFs. In this paper, we investigate the second-order quantified Boolean logic with the following main results: First, we present a procedure of quantifier elimination converting SOQBFs to QBFs and a game interpretation of SOQBF semantics. Second, we devise a sound and complete refutation-proof system for SOQBF. Third, we develop an algorithm for countermodel extraction from a refutation proof. Finally, we show potential applications of SOQBFs in system design and multi-agent planning. With these advances, we anticipate practical tools for development.
+
+## Vijay Ganesh
+
+__Title__: A SAT Solver + Computer Algebra Attack on the Minimum Kochen–Specker Problem
+
+__Abstract__:
+Two of the most fundamental theorems in quantum foundations are the Kochen-Specker and the Conway-Kochen "Free Will" Theorems. Both these theorems rely on the existence of a finite object called the KS vector system. Despite several decades of effort by leading physicists and mathematicians, the minimum KS system problem for 3-dimensions remains unresolved. In this talk, we present a SAT solver + Computer Algebra (CAS) attack on this problem, and provide a verified computational proof that there are no KS systems of  size 23 or below. To the extent that we know, ours is the first attack on a problem in quantum foundations via a combination of a SAT solver and CAS system.
+
