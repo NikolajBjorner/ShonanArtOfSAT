@@ -5,7 +5,7 @@
 
 ### Morning 1: 
 
-* 9-10:00: [Participants introduce themselves](Introductions.pptx), introduction of challenge problems.
+* 9-10:00: [Participants introduce themselves](Introductions.pptx).
 * 10:00-10:30: break
 
 ### Morning 2:
@@ -41,8 +41,8 @@ Evening: Demos and social interaction.
 
 ### Morning 2: Applications of SAT
 
-* 11:00-11:30 Soh Takehide        __CoRe Challenge 2022/2023: International Competition for Combinatorial Reconfiguration__
-* 11:30-12:00  Mutsunori Banbara   __Hamiltonian Cycle Reconfiguration with Answer Set Programming__
+* 11:00-11:30  Mutsunori Banbara   __Hamiltonian Cycle Reconfiguration with Answer Set Programming__
+* 11:30-12:00 Soh Takehide        __CoRe Challenge 2022/2023: International Competition for Combinatorial Reconfiguration__
 
 
 ### Afternoon 1: Topic session on encoding (part II). 
