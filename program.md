@@ -11,7 +11,7 @@
 ### Morning 2:
 
 * 10:30-11:30 Armin Biere   __The Art of igniting the SAT revolution__
-* 11:30-12:00 Vijay Ganesh: [__SAT + CAS: Kochen-Specker, Lam's Problem, Williamson Matrix__](./VijayGanesh Kochen Specker Full Slides.pptx)
+* 11:30-12:00 Vijay Ganesh: [__A SAT Solver + Computer Algebra Attack on the Minimum Kochen–Specker Problem__](./VijayGanesh Kochen Specker Full Slides.pptx)
 
 ### Afternoon 1: Topic Higher- order SAT.
 
