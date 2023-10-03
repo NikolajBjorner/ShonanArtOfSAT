@@ -36,7 +36,7 @@ Evening: Demos and social interaction.
 ### Morning 1: Topic session on building SAT services on top of SAT solvers.
 * 9-9:30: Katalin Fazekas     __IPASIR-UP__
 * 9:30-10:00 Mathias Preiner  __CaDiCaL(T): CaDiCaL as CDCL(T) Engine in cvc5__
-* 10:00-10:30 Aina Niemetz   __local search word level reasoning, what's new with Bitwula__
+* 10:00-10:30 Aina Niemetz   [__Bit-Blasting Meets Local Search in Bitwuzla__](./AinaNiemetz-slides.pdf)
 
 
 ### Morning 2: Applications of SAT
