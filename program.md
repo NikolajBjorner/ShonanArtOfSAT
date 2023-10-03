@@ -57,7 +57,7 @@ Evening: Demos and social interaction.
 ### Afternoon 2: Topic session on MaxSAT. Breakout session for collaborations.
 
 * 16:00-16:30  Miyuki Koshimura      __MaxSAT application__
-* 16:30-17:00  Masahiro Sakai        __Max-SAT benchmarks for Binary Neural Networks__
+* 16:30-17:00  Masahiro Sakai        [__BNN verification dataset for Max-SAT Evaluation 2020__](./MasahiroSakai-slides.pdf)
 * 17:00-18:00  Discussions and Collaborations
 
 ### Evening: Social interaction.
@@ -209,3 +209,22 @@ I will talk about the strengths and potential weaknesses of this approach,
 how to address these weaknesses, and the challenge to combine local search
 with bit-blasting, as implemented in our new SMT solver Bitwuzla, in a
 more hybrid manner that allows information sharing between the two approaches.
+
+
+## Masahiro Sakai
+
+__Title__: BNN verification dataset for Max-SAT Evaluation 2020
+
+__Abstract__:
+Deep neural networks achieved impressive performance in various tasks,
+but formal verification of their behavior is a challenging
+task. [Narodytska+, AAAI-18] proposed a method to verify a specific
+type of neural network called binarized neural networks (BNNs) using a
+SAT solver. Among other properties, they checked the (ε,p)-robustness
+of a neural network for an input x, i.e. absence of a perturbation τ
+such that ‖τ‖p ≤ ε and the neural network misclassifies x+τ. We extend
+their approach and consider an optimization problem that minimizes
+‖τ‖ₚ instead of giving the upper bound ε a priori. The optimization
+problem can be encoded as partial weighted Max-SAT, and we submitted
+problem instances to Max-SAT Evaluation 2020. In this talk, I will
+introduce our encoding and report some results.
