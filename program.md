@@ -181,3 +181,31 @@ IPASIR-UP are used to establish the communication between cvc5's theory solvers
 and CaDiCaL and how we use it to inspect and influence the CDCL search. I will
 conclude with an evaluation on SMT-LIB and discuss some challenges we
 encountered on incremental SMT-LIB problems.
+
+
+## Aina Niemetz
+__Title__: Bit-Blasting Meets Local Search in Bitwuzla
+
+__Abstract__:
+Reasoning about quantifier-free bit-vector constraints in Satisfiability
+Modulo Theories (SMT) has been an ongoing challenge for many years,
+especially for large bit-widths. Current state-of-the-art for bit-precise
+reasoning is a technique called bit-blasting, where bit-vector constraints
+are eagerly translated into propositional logic (SAT). Bit-blasting is very
+efficient in practice but does not generally scale well for large bit-widths
+due to fact that the translation is in general exponential in the size of the
+input formula, which potentially (and in practice) overwhelms the underlying
+SAT solver. For these instances, we need alternative approaches for
+bit-precise reasoning that do not rely on translations to the SAT level.
+Such an alternative approach is our propagation-based local search procedure,
+which relies on propagating target values from top-level constraints towards
+the inputs while utilizing so-called invertibility conditions. Invertibility
+conditions precisely characterize when bit-vector constraints are invertible,
+a core concept of our approach. Our procedure is, as expected for local
+search, incomplete in the sense that it can only determine satisfiability but
+was shown to be effective on hard satisfiable instances, in particular in
+combination with bit-blasting in a sequential portfolio setting. In this talk,
+I will talk about the strengths and potential weaknesses of this approach,
+how to address these weaknesses, and the challenge to combine local search
+with bit-blasting, as implemented in our new SMT solver Bitwuzla, in a
+more hybrid manner that allows information sharing between the two approaches.
