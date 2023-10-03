@@ -49,8 +49,8 @@ Evening: Demos and social interaction.
 
 
 * 14:00-14:30       Kristin Rozier    __SAT based explicit LTLf satisfiability checking__
-* 14:30-15:15       Marijn Heule      __The art of encoding happy endings__
-* 15:15-15:40       Nina Narodytska   __Invariant generation using LLMs__
+* 14:30-15:10       Marijn Heule      __The art of encoding happy endings__
+* 15:10-15:40       Nina Narodytska   __Invariant generation using LLMs__
 * 15:40-16:00       break 
 
 
