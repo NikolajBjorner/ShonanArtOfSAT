@@ -211,6 +211,27 @@ with bit-blasting, as implemented in our new SMT solver Bitwuzla, in a
 more hybrid manner that allows information sharing between the two approaches.
 
 
+## Marijn Heule
+
+__Title__: The Art of Encoding Happy Endings
+
+__Abstract__:
+In 1970s Erdős asked whether, for every integer k, every set of sufficiently
+many points in the plane in general position contains a k-hole, that is, a
+subset of k points spanning a convex polygon which contains no other points
+of the set. Denote by h(k) the minimum number of points needed to guarantee
+the existence of k-hole, if it exists. While h(3)=3 and h(4)=5 are
+straight-forward, Harborth (1978) proved h(5)=10, and Horton (1983)
+constructed arbitrary large sets without 7-holes. The existence of 6-holes,
+however, remained open until 2006, when Gerken and Nicolas independently
+proved that h(6) is finite. 
+
+We use SAT to show that every set of 30 points yields a 6-hole. The key
+contributions are a compact O(n^4) encoding and a partitioning of the
+problem that allows us to have linear time speedups even when using 1000s
+of cores. Together with the set of 29 points without 6-holes constructed
+by Overmars (2002), this determines the last remaining value h(6) = 30.
+
 ## Masahiro Sakai
 
 __Title__: BNN verification dataset for Max-SAT Evaluation 2020
