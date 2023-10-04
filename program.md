@@ -16,7 +16,7 @@
 ### Afternoon 1: Topic Higher- order SAT.
 
 * 14:00-14:30 Jie-Hong Roland Jiang __Second-order Boolean QBF__
-* 14:30-15:00 Hiroshi Unno     __Modular Primal-Dual Fixpoint Logic Solving for Temporal Verification__
+* 14:30-15:00 Hiroshi Unno     [__Modular Primal-Dual Fixpoint Logic Solving for Temporal Verification__](./HiroshiUnno-slides.pptx)
 * 15:00-15:30 Sam Buss      [__Seeking hard SAT instances for constant depth Frege__](./SamBusstalkslides_Challenges_Shonan_2023.pdf)
 
 * 15:30-16:00 break 
