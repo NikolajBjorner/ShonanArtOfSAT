@@ -50,7 +50,7 @@ Evening: Demos and social interaction.
 
 * 14:00-14:30       Kristin Rozier    __SAT based explicit LTLf satisfiability checking__
 * 14:30-15:10       Marijn Heule      __The art of encoding happy endings__
-* 15:10-15:40       Nina Narodytska   __Invariant generation using LLMs__
+* 15:10-15:40       Nina Narodytska   [__Invariant generation using LLMs__](./Nina.pdf)
 * 15:40-16:00       break 
 
 
@@ -250,3 +250,10 @@ their approach and consider an optimization problem that minimizes
 problem can be encoded as partial weighted Max-SAT, and we submitted
 problem instances to Max-SAT Evaluation 2020. In this talk, I will
 introduce our encoding and report some results.
+
+## Nina Narodytska
+
+__Title__: Lemur:  Integrating Large Language Models in Automated Program Verification
+
+__Abstract:__
+The demonstrated code-understanding capability of LLMs raises the question of whether they can be used for automated program verification, a task that typically demands high-level abstract reasoning about program properties that is challenging for verification tools. We propose a general methodology to combine the power of LLMs and automated reasoners for automated program verification. We formally describe this methodology as a set of derivation rules and prove its soundness. We instantiate the calculus as a sound automated verification procedure, which led to practical improvements on a set of synthetic and competition benchmarks.
