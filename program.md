@@ -41,7 +41,7 @@ Evening: Demos and social interaction.
 
 ### Morning 2: Applications of SAT
 
-* 11:00-11:30  Mutsunori Banbara   __Hamiltonian Cycle Reconfiguration with Answer Set Programming__
+* 11:00-11:30  Mutsunori Banbara   [__Hamiltonian Cycle Reconfiguration with Answer Set Programming__](./MutsunoriBanbara-slides.pdf)
 * 11:30-12:00 Soh Takehide        __CoRe Challenge 2022/2023: International Competition for Combinatorial Reconfiguration__
 
 
@@ -71,7 +71,7 @@ Evening: Demos and social interaction.
 
 ### Morning 2: 
 
-* 11:00-11:30:	Matti Järvisalo __Incremental MaxSAT__
+* 11:00-11:30	Matti Järvisalo __Incremental MaxSAT__
 * 11:30-12:00	Oliver Kullmann   __Transforming QBFs Using Biclique Covers__
 
 
