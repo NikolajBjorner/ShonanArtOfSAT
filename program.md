@@ -42,7 +42,7 @@ Evening: Demos and social interaction.
 ### Morning 2: Applications of SAT
 
 * 11:00-11:30  Mutsunori Banbara   [__Hamiltonian Cycle Reconfiguration with Answer Set Programming__](./MutsunoriBanbara-slides.pdf)
-* 11:30-12:00 Soh Takehide        __CoRe Challenge 2022/2023: International Competition for Combinatorial Reconfiguration__
+* 11:30-12:00 Takehide Soh        [__CoRe Challenge 2022/2023: International Competition for Combinatorial Reconfiguration__](./TakehideSoh-slides.pdf)
 
 
 ### Afternoon 1: Topic session on encoding (part II). 
@@ -95,13 +95,12 @@ __Abstract__: SAT and SMT are central tools in automatically proving termination
 1. explain the use of interactive SMT solving in my termination tool NaTT, and present ideas for further improvement, for which I am not sure how to encode as standard SMT problems.
 2. investigate a DPLL(T)-like approach for "satisfiability modulo rewriting" (also called (in)feasibility). Such problems appear in termination and confluence analysis of (conditional) TRSs, but so far only expensive tree-automata-based techniques or basic syntactic techniques are known.
 
-## Soh Takehide
+## Takehide Soh
 
 __Title__: CoRe Challenge 2022/2023: International Competition for Combinatorial Reconfiguration
 
 __Abstract__:
-Combinatorial Reconfiguration is a novel algorithmic concept that provides mathematical models and analysis for "transformations over state spaces." Its appearance ranges from theory to applications.  However, its technical achievements are hard to access.  Thus, it is required to found a common infrastructure for utilizing and applying the algorithmic technology of combinatorial reconfiguration. See this website for more backgrounds.  
-
+Combinatorial Reconfiguration is a novel algorithmic concept that provides mathematical models and analysis for "transformations over state spaces." Its appearance ranges from theory to applications.  However, its technical achievements are hard to access.  Thus, it is required to found a common infrastructure for utilizing and applying the algorithmic technology of combinatorial reconfiguration. See this website for more backgrounds.
 Combinatorial Reconfiguration Challenge (CoRe Challenge 2022/2023) is a competition aiming for practically exploring the combinatorial reconfiguration.  CoRe Challenge 2022/2023 targets the Independent Set Reconfiguration (ISR) problem. The ISR problem is one of the most well-studied reconfiguration problems. Theoretically, the problem is PSPACE-complete, which implies that there exist instances such that even a shortest reconfiguration sequence requires a super polynomial steps.
 
 
