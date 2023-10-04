@@ -72,7 +72,7 @@ Evening: Demos and social interaction.
 ### Morning 2: 
 
 * 11:00-11:30	Matti Järvisalo __Incremental MaxSAT__
-* 11:30-12:00	Oliver Kullmann   __Transforming QBFs Using Biclique Covers__
+* 11:30-12:00	Oliver Kullmann   [__Transforming QBFs Using Biclique Covers__](./OliverKullmann.pdf)
 
 
 ### Afternoon: excursion
