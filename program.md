@@ -91,7 +91,8 @@ Evening: Demos and social interaction.
 
 __Title__: Satisfiability and Term Rewriting
 
-__Abstract__: SAT and SMT are central tools in automatically proving termination of term rewrite systems (TRSs). In this talk, I would like to 1. explain the use of interactive SMT solving in my termination tool NaTT, and present ideas for further improvement, for which I am not sure how to encode as standard SMT problems.
+__Abstract__: SAT and SMT are central tools in automatically proving termination of term rewrite systems (TRSs). In this talk, I would like to
+1. explain the use of interactive SMT solving in my termination tool NaTT, and present ideas for further improvement, for which I am not sure how to encode as standard SMT problems.
 2. investigate a DPLL(T)-like approach for "satisfiability modulo rewriting" (also called (in)feasibility). Such problems appear in termination and confluence analysis of (conditional) TRSs, but so far only expensive tree-automata-based techniques or basic syntactic techniques are known.
 
 ## Soh Takehide
