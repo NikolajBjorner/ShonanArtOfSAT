@@ -66,7 +66,7 @@ Evening: Demos and social interaction.
 
 ### Morning 1: Certificates, Search, and Beyond
 
-* 9-9:45:      Jakob Nordström __A one-size-fits-all proof logging system?__
+* 9-9:45:      Jakob Nordström [__A one-size-fits-all proof logging system?__](./VeriPB_Shonan.pdf)
 * 9:45-10:15   Shin-ichi Minato __The Art of Counting Graphs__
 
 ### Morning 2: 
