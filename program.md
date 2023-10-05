@@ -23,7 +23,7 @@
 
 ### Afternoon 2: Encoding SAT
 
-* 16:00-16:30 Stefan Szeider      __isomph-free SAT modulo symmetries__
+* 16:00-16:30 Stefan Szeider      [__isomph-free SAT modulo symmetries__](./Stefan.pdf)
 * 16:30-17:00 Akihisa Yamada      __Satisfiability and Term Rewriting__
 * 17:00-17:30 Tachio Terauchi     __Synthesizing regular expressions__
 * 17:30-18:00 Discussion
@@ -121,10 +121,11 @@ The Hamiltonian cycle reconfiguration problem is defined as determining, for a g
 
 ## Stefan Szeider
 
-__Title__: Isomorph-Free Generation of Combinatorial Objects with SAT Modulo Symmetries
+__Title__: The Art of Symmetry Breaking: Isomorph-Free Generation of Combinatorial Objects with SAT Modulo Symmetries
 
 __Abstract__: SAT modulo Symmetries (SMS) is a framework for the exhaustive isomorph-free generation of combinatorial objects with a prescribed property. SMS relies on the tight integration of a CDCL SAT solver with a custom dynamic symmetry-breaking algorithm that iteratively refines an ordered partition of the generated object's elements. SMS utilizes the IPASIR-UP interface and hence can work with any solver implements this interface. SMS supports DRAT proofs for the SAT solver's reasoning and offline verification of the symmetry-breaking clauses, and thus provides an additional layer of confidence in the obtained results. This talk will discuss the basic concepts of SMS and review some recent applications on graphs, digraphs, hypergraphs, and matroids. 
-Joint work with Katalin Fazekas, Markus Kichweger, Tomas Peitl, and Manfred Scheucher.
+Based on joint work with Katalin Fazekas, Markus Kichweger, Tomas Peitl, Manfred Scheucher, Tianwei Zhang.
+Documentation on [readthedocs](https://sat-modulo-symmetries.readthedocs.io/).
 
 ## Hiroshi Unno
 
