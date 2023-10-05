@@ -10,7 +10,7 @@
 
 ### Morning 2:
 
-* 10:30-11:30 Armin Biere   __The Art of igniting the SAT revolution__
+* 10:30-11:30 Armin Biere   [__The Art of igniting the SAT revolution__](./Biere-Shonan23.pdf)
 * 11:30-12:00 Vijay Ganesh: [__A SAT Solver + Computer Algebra Attack on the Minimum Kochen–Specker Problem__](./VijayGanesh Kochen Specker Full Slides.pptx)
 
 ### Afternoon 1: Topic Higher- order SAT.
@@ -254,5 +254,16 @@ introduce our encoding and report some results.
 
 __Title__: Lemur:  Integrating Large Language Models in Automated Program Verification
 
-__Abstract:__
+__Abstract__:
 The demonstrated code-understanding capability of LLMs raises the question of whether they can be used for automated program verification, a task that typically demands high-level abstract reasoning about program properties that is challenging for verification tools. We propose a general methodology to combine the power of LLMs and automated reasoners for automated program verification. We formally describe this methodology as a set of derivation rules and prove its soundness. We instantiate the calculus as a sound automated verification procedure, which led to practical improvements on a set of synthetic and competition benchmarks.
+
+## Armin Biere
+
+__Title__: The Art of Igniting the SAT Revolution
+
+__Abstract__:
+
+This talk expanded and presented additional preliminary results related to our POS'23 presentation on the SAT Museum, where
+the virtual SAT Solver Museum is an effort towards preserving historical SAT solvers, by collecting and porting their
+source code to modern compilers and evaluating them on representative benchmark sets on the same hardware.  This allows us
+to compare historic and modern solvers in the same environment.
