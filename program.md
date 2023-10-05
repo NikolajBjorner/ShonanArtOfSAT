@@ -23,7 +23,7 @@
 
 ### Afternoon 2: Encoding SAT
 
-* 16:00-16:30 Stefan Szeider      [__isomph-free SAT modulo symmetries__](./Stefan.pdf)
+* 16:00-16:30 Stefan Szeider      [__isomph-free SAT modulo symmetries__](./stefan.pdf)
 * 16:30-17:00 Akihisa Yamada      __Satisfiability and Term Rewriting__
 * 17:00-17:30 Tachio Terauchi     __Synthesizing regular expressions__
 * 17:30-18:00 Discussion
