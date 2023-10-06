@@ -80,6 +80,9 @@ Evening: Demos and social interaction.
 ## Thursday
 
 * 9:15-10:15        Discussion on challenge problems
+  * Marijn Heule    Simple to generate, hard to solve SAT problems
+  * Stefan Szeider  Coloring maps between the Earth and Moon
+  * Oliver Kullmann Automating Cube and Conquer
 * 10:15-10:45       Break
 * 10:45-11:10       Roopsha Samanta  __Trace-Guided Inductive Synthesis of Recursive Functional Programs__
 * 11:10-11:30       Naoki Kobayashi __Higher-order model checking and its similarity (?) with SAT solving__
