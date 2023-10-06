@@ -85,7 +85,7 @@ Evening: Demos and social interaction.
   * Oliver Kullmann Automating Cube and Conquer
 * 10:15-10:45       Break
 * 10:45-11:10       Roopsha Samanta  __Trace-Guided Inductive Synthesis of Recursive Functional Programs__
-* 11:10-11:30       Naoki Kobayashi __Higher-order model checking and its similarity (?) with SAT solving__
+* 11:10-11:30       Naoki Kobayashi [__Higher-order model checking and its similarity (?) with SAT solving__](./Kobayashi.pdf)
 * 11:30-11:40       Jie-Hong Roland Jiang __SAT 2024 conference announcement__
 
 # Abstracts
@@ -299,12 +299,9 @@ We propose a novel trace-guided approach to tackle the challenges of ambiguity a
 
 __Title__: Higher-order model checking and its similarity (?) with SAT solving.
 
-__Abstract__: The contribution is an introduction to higher-order model checking through the lens of SAT solving. I give
-
-* a brief overview of how my past work on automated program verificaiton 
-  used SAT/SMT solving
-  
-* a brief introduction to higher-order model checking (which is a "higher-order
- extension" of finite state model checking)
-
-* some similarity/difference/relationship with SAT
+__Abstract__:
+In this talk, I first give a brief overview of how my past work on automated program verification
+ used SAT/SMT solving. I then provide a briefl introduction to higher-order model checking (which is a "higher-order
+ extension" of finite state model checking), and discuss the similarities and differences between
+ higher-order model checking and SAT solving.
+ 
