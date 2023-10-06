@@ -56,7 +56,7 @@ Evening: Demos and social interaction.
 
 ### Afternoon 2: Topic session on MaxSAT. Breakout session for collaborations.
 
-* 16:00-16:30  Miyuki Koshimura      __MaxSAT application__
+* 16:00-16:30  Miyuki Koshimura      __Optimal Scheduling for a Vertical Transport Machine with MaxSAT__
 * 16:30-17:00  Masahiro Sakai        [__BNN verification dataset for Max-SAT Evaluation 2020__](./MasahiroSakai-slides.pdf)
 * 17:00-18:00  Discussions and Collaborations
 
