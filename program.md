@@ -48,7 +48,7 @@ Evening: Demos and social interaction.
 ### Afternoon 1: Topic session on encoding (part II). 
 
 
-* 14:00-14:30       Kristin Rozier    __SAT based explicit LTLf satisfiability checking__
+* 14:00-14:30       Kristin Yovinne Rozier    __SAT based explicit LTLf satisfiability checking__
 * 14:30-15:10       Marijn Heule      __The art of encoding happy endings__
 * 15:10-15:40       Nina Narodytska   [__Invariant generation using LLMs__](./Nina.pdf)
 * 15:40-16:00       break 
@@ -79,13 +79,34 @@ Evening: Demos and social interaction.
 
 ## Thursday
 
-* 9:00-10:00        Discussion on challenge problems
-* 10:00-10:30       Roopsha Samanta  - __synthesis of recursive procedures__
+* 9:15-10:15        Discussion on challenge problems
+* 10:15-10:45       Break
+* 10:45-11:10       Roopsha Samanta  __synthesis of recursive procedures__
+* 11:10-11:30       Naoki Kobayashi __Higher-order model checking and its similarity (?) with SAT solving__
 * 10:30-11:00       Break
 * 11:00-11:30       Nikolaj Bjorner __On Incremental preprocessing for SMT__
 * 11:30-12:00       Discussions 
 
 # Abstracts
+
+## Armin Biere
+
+__Title__: The Art of Igniting the SAT Revolution
+
+__Abstract__:
+
+This talk expanded and presented additional preliminary results related to our POS'23 presentation on the SAT Museum, where
+the virtual SAT Solver Museum is an effort towards preserving historical SAT solvers, by collecting and porting their
+source code to modern compilers and evaluating them on representative benchmark sets on the same hardware.  This allows us
+to compare historic and modern solvers in the same environment.
+
+## Vijay Ganesh
+
+__Title__: A SAT Solver + Computer Algebra Attack on the Minimum Kochen–Specker Problem
+
+__Abstract__:
+Two of the most fundamental theorems in quantum foundations are the Kochen-Specker and the Conway-Kochen "Free Will" Theorems. Both these theorems rely on the existence of a finite object called the KS vector system. Despite several decades of effort by leading physicists and mathematicians, the minimum KS system problem for 3-dimensions remains unresolved. In this talk, we present a SAT solver + Computer Algebra (CAS) attack on this problem, and provide a verified computational proof that there are no KS systems of  size 23 or below. To the extent that we know, ours is the first attack on a problem in quantum foundations via a combination of a SAT solver and CAS system.
+
 
 ## Akihisa Yamada
 
@@ -153,13 +174,6 @@ __Title__: Second-Order Quantified Boolean Logic
 
 __Abstract__: 
 Second-order quantified Boolean formulas (SOQBFs) generalize quantified Boolean formulas (QBFs) by admitting second-order quantifiers on function variables in addition to first-order quantifiers on atomic variables. Recent endeavors establish that the complexity of SOQBF satisfiability corresponds to the exponential-time hierarchy (EXPH), similar to that of QBF satisfiability corresponding to the polynomial-time hierarchy (PH). This fact reveals the succinct expression power of SOQBFs in encoding decision problems not efficiently doable by QBFs. In this paper, we investigate the second-order quantified Boolean logic with the following main results: First, we present a procedure of quantifier elimination converting SOQBFs to QBFs and a game interpretation of SOQBF semantics. Second, we devise a sound and complete refutation-proof system for SOQBF. Third, we develop an algorithm for countermodel extraction from a refutation proof. Finally, we show potential applications of SOQBFs in system design and multi-agent planning. With these advances, we anticipate practical tools for development.
-
-## Vijay Ganesh
-
-__Title__: A SAT Solver + Computer Algebra Attack on the Minimum Kochen–Specker Problem
-
-__Abstract__:
-Two of the most fundamental theorems in quantum foundations are the Kochen-Specker and the Conway-Kochen "Free Will" Theorems. Both these theorems rely on the existence of a finite object called the KS vector system. Despite several decades of effort by leading physicists and mathematicians, the minimum KS system problem for 3-dimensions remains unresolved. In this talk, we present a SAT solver + Computer Algebra (CAS) attack on this problem, and provide a verified computational proof that there are no KS systems of  size 23 or below. To the extent that we know, ours is the first attack on a problem in quantum foundations via a combination of a SAT solver and CAS system.
 
 
 ## Mathias Preiner
@@ -258,13 +272,26 @@ __Title__: Lemur:  Integrating Large Language Models in Automated Program Verifi
 __Abstract__:
 The demonstrated code-understanding capability of LLMs raises the question of whether they can be used for automated program verification, a task that typically demands high-level abstract reasoning about program properties that is challenging for verification tools. We propose a general methodology to combine the power of LLMs and automated reasoners for automated program verification. We formally describe this methodology as a set of derivation rules and prove its soundness. We instantiate the calculus as a sound automated verification procedure, which led to practical improvements on a set of synthetic and competition benchmarks.
 
-## Armin Biere
 
-__Title__: The Art of Igniting the SAT Revolution
 
-__Abstract__:
+## Roopsha Samanta
 
-This talk expanded and presented additional preliminary results related to our POS'23 presentation on the SAT Museum, where
-the virtual SAT Solver Museum is an effort towards preserving historical SAT solvers, by collecting and porting their
-source code to modern compilers and evaluating them on representative benchmark sets on the same hardware.  This allows us
-to compare historic and modern solvers in the same environment.
+__Title__: Trace-Guided Inductive Synthesis of Recursive Functional Programs
+
+__Abstract__: 
+We propose a novel trace-guided approach to tackle the challenges of ambiguity and generalization in synthesis of recursive functional programs from examples. Our approach augments the search space of programs with recursion traces consisting of sequences of recursive subcalls of programs. Our method is based on a new version space algebra (VSA) for succinct representation and efficient manipulation of pairs of recursion traces and programs that are consistent with each other. We have implemented this approach in a tool called SyRup and evaluate it on benchmarks from prior work. Our evaluation demonstrates that SyRup not only requires fewer examples to achieve a certain success rate than existing synthesizers, but is also less sensitive to the quality of the examples.
+
+
+## Naoki Kobayashi
+
+__Title__: Higher-order model checking and its similarity (?) with SAT solving.
+
+__Abstract__: The contribution is an introduction to higher-order model checking through the lens of SAT solving. I give
+
+* a brief overview of how my past work on automated program verificaiton 
+  used SAT/SMT solving
+  
+* a brief introduction to higher-order model checking (which is a "higher-order
+ extension" of finite state model checking)
+
+* some similarity/difference/relationship with SAT
