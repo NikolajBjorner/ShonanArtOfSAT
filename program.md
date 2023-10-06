@@ -81,7 +81,7 @@ Evening: Demos and social interaction.
 
 * 9:15-10:15        Discussion on challenge problems
 * 10:15-10:45       Break
-* 10:45-11:10       Roopsha Samanta  __synthesis of recursive procedures__
+* 10:45-11:10       Roopsha Samanta  __Trace-Guided Inductive Synthesis of Recursive Functional Programs__
 * 11:10-11:30       Naoki Kobayashi __Higher-order model checking and its similarity (?) with SAT solving__
 * 11:30-11:40       Jie-Hong Roland Jiang __SAT 2024 conference announcement__
 
@@ -105,46 +105,13 @@ __Title__: A SAT Solver + Computer Algebra Attack on the Minimum Kochen–Specke
 __Abstract__:
 Two of the most fundamental theorems in quantum foundations are the Kochen-Specker and the Conway-Kochen "Free Will" Theorems. Both these theorems rely on the existence of a finite object called the KS vector system. Despite several decades of effort by leading physicists and mathematicians, the minimum KS system problem for 3-dimensions remains unresolved. In this talk, we present a SAT solver + Computer Algebra (CAS) attack on this problem, and provide a verified computational proof that there are no KS systems of  size 23 or below. To the extent that we know, ours is the first attack on a problem in quantum foundations via a combination of a SAT solver and CAS system.
 
+## Jie-Hong Roland Jiang
 
-## Akihisa Yamada
+__Title__: Second-Order Quantified Boolean Logic
 
-__Title__: Satisfiability and Term Rewriting
+__Abstract__: 
+Second-order quantified Boolean formulas (SOQBFs) generalize quantified Boolean formulas (QBFs) by admitting second-order quantifiers on function variables in addition to first-order quantifiers on atomic variables. Recent endeavors establish that the complexity of SOQBF satisfiability corresponds to the exponential-time hierarchy (EXPH), similar to that of QBF satisfiability corresponding to the polynomial-time hierarchy (PH). This fact reveals the succinct expression power of SOQBFs in encoding decision problems not efficiently doable by QBFs. In this paper, we investigate the second-order quantified Boolean logic with the following main results: First, we present a procedure of quantifier elimination converting SOQBFs to QBFs and a game interpretation of SOQBF semantics. Second, we devise a sound and complete refutation-proof system for SOQBF. Third, we develop an algorithm for countermodel extraction from a refutation proof. Finally, we show potential applications of SOQBFs in system design and multi-agent planning. With these advances, we anticipate practical tools for development.
 
-__Abstract__: SAT and SMT are central tools in automatically proving termination of term rewrite systems (TRSs). In this talk, I would like to
-1. explain the use of interactive SMT solving in my termination tool NaTT, and present ideas for further improvement, for which I am not sure how to encode as standard SMT problems.
-2. investigate a DPLL(T)-like approach for "satisfiability modulo rewriting" (also called (in)feasibility). Such problems appear in termination and confluence analysis of (conditional) TRSs, but so far only expensive tree-automata-based techniques or basic syntactic techniques are known.
-
-## Takehide Soh
-
-__Title__: CoRe Challenge 2022/2023: International Competition for Combinatorial Reconfiguration
-
-__Abstract__:
-Combinatorial Reconfiguration is a novel algorithmic concept that provides mathematical models and analysis for "transformations over state spaces." Its appearance ranges from theory to applications.  However, its technical achievements are hard to access.  Thus, it is required to found a common infrastructure for utilizing and applying the algorithmic technology of combinatorial reconfiguration. See this website for more backgrounds.
-Combinatorial Reconfiguration Challenge (CoRe Challenge 2022/2023) is a competition aiming for practically exploring the combinatorial reconfiguration.  CoRe Challenge 2022/2023 targets the Independent Set Reconfiguration (ISR) problem. The ISR problem is one of the most well-studied reconfiguration problems. Theoretically, the problem is PSPACE-complete, which implies that there exist instances such that even a shortest reconfiguration sequence requires a super polynomial steps.
-
-
-## Matti Järvisalo
-
-__Title__:
-Incremental Maximum Satisfiability: Interfaces, Solvers and Applications
-
-__Abstract__:
-Enabling incremental computations on the level of constraint optimization remains a noticeable challenge. Boolean satisfiability (SAT) solvers allow for incremental computations, which is key to efficient employment of SAT solvers iteratively for developing complex decision and optimization procedures, including maximum satisfiability (MaxSAT) solvers. However, while incremental computations have been identified to have great potential in speeding up especially so-called unsatisfiability-based MaxSAT solving, enabling incremental computations in MaxSAT has remained until very recently to most extent unexplored. In this talk, I will give an overview of recent developments in incremental MaxSAT, including an API supporting the development of incremental solvers and their applications; the new Incremental Track of MaxSAT Evaluations; current availability of  incremental MaxSAT solvers with some more details on  SAT-IP hybrid approach of implicit hitting sets implemented in iMaxHS; and a glance at recent successful applications of incremental MaxSAT solving.
-
-## Mutsunori Banbara
-
-__Title__: Hamiltonian Cycle Reconfiguration with Answer Set Programming
-
-__Abstract__:
-The Hamiltonian cycle reconfiguration problem is defined as determining, for a given Hamiltonian cycle problem and two among its feasible solutions, whether one is reachable from another via a sequence of feasible solutions subject to certain transition constraints.  We develop an approach to solving the Hamiltonian cycle reconfiguration problem based on Answer Set Programming (ASP).  Our approach relies on a high-level ASP encoding and delegates both the grounding and solving tasks to an ASP-based solver.  To show the effectiveness of our approach, we conduct experiments on the benchmark set of Flinders Hamiltonian Cycle Project.
-
-## Stefan Szeider
-
-__Title__: The Art of Symmetry Breaking: Isomorph-Free Generation of Combinatorial Objects with SAT Modulo Symmetries
-
-__Abstract__: SAT modulo Symmetries (SMS) is a framework for the exhaustive isomorph-free generation of combinatorial objects with a prescribed property. SMS relies on the tight integration of a CDCL SAT solver with a custom dynamic symmetry-breaking algorithm that iteratively refines an ordered partition of the generated object's elements. SMS utilizes the IPASIR-UP interface and hence can work with any solver implements this interface. SMS supports DRAT proofs for the SAT solver's reasoning and offline verification of the symmetry-breaking clauses, and thus provides an additional layer of confidence in the obtained results. This talk will discuss the basic concepts of SMS and review some recent applications on graphs, digraphs, hypergraphs, and matroids. 
-Based on joint work with Katalin Fazekas, Markus Kichweger, Tomas Peitl, Manfred Scheucher, Tianwei Zhang.
-Documentation on [readthedocs](https://sat-modulo-symmetries.readthedocs.io/).
 
 ## Hiroshi Unno
 
@@ -156,23 +123,26 @@ Coupled with an existing sound-and-relatively-complete solver for the constraint
 
 We demonstrate the utility of our novel fixpoint logic solving by encoding a wide variety of temporal verification problems in µCLP, including termination/non-termination, LTL, CTL, and even the full modal µ-calculus model checking of infinite state programs. The encodings exploit the modularity in both the program and the property by expressing each loops and (recursive) functions in the program and sub-formulas of the property as individual (possibly nested) (co-)inductive predicates. Together with our novel modular primal-dual µCLP solving, we obtain a novel approach to efficiently solving a wide range of temporal verification problems.
 
+## Stefan Szeider
 
-## Jakob Nordström
+__Title__: The Art of Symmetry Breaking: Isomorph-Free Generation of Combinatorial Objects with SAT Modulo Symmetries
 
-__Title__: A one-size-fits-all proof logging system?
+__Abstract__: SAT modulo Symmetries (SMS) is a framework for the exhaustive isomorph-free generation of combinatorial objects with a prescribed property. SMS relies on the tight integration of a CDCL SAT solver with a custom dynamic symmetry-breaking algorithm that iteratively refines an ordered partition of the generated object's elements. SMS utilizes the IPASIR-UP interface and hence can work with any solver implements this interface. SMS supports DRAT proofs for the SAT solver's reasoning and offline verification of the symmetry-breaking clauses, and thus provides an additional layer of confidence in the obtained results. This talk will discuss the basic concepts of SMS and review some recent applications on graphs, digraphs, hypergraphs, and matroids. 
+Based on joint work with Katalin Fazekas, Markus Kichweger, Tomas Peitl, Manfred Scheucher, Tianwei Zhang.
+Documentation on [readthedocs](https://sat-modulo-symmetries.readthedocs.io/).
 
 
-__Abstract__: We propose a unified proof logging system for decision problems, optimization problems, model enumeration problems, and problem reformulations, and semantics for composition of such proofs. We discuss some of the challenges in designing such a proof system and the choices made to overcome them. We base our system on pseudo-Boolean reasoning with 0-1 integer linear programs, which is a superset of conjunctive normal form (CNF). This is the only proof system that can currently support all enhanced SAT solving techniques for decision problems, and the language of 0-1 linear inequalities also makes it convenient to reason about linear objective functions. However, to maintain equisatisfiability of decision problems restrictions for how contraints are deleted must be imposed, and this is also crucial to preserve the optimal value of optimization problem instances. In addition, for projected model enumeration, the use of strengthening rules such as RAT and pseudo-Boolean generalizations of RAT must be carefully restricted in order not to change the set of solutions. Finally, precise definitions are needed of what it would mean to rewrite the objective function and/or constraints of a problem instance while keeping it "the same", and what the semantics should be for proof compositions if a sequence of solvers operations on (translations of) the same problem instance and emit separate proof logs.
+## Akihisa Yamada
 
-This is based on joint work with Bart Bogaerts, Stephan Gocht, Ciaran McCreesh, Magnus O. Myreen, Andy Oertel, and Yong Kiam Tan.
+__Title__: Satisfiability and Term Rewriting
 
-## Jie-Hong Roland Jiang
+__Abstract__: SAT and SMT are central tools in automatically proving termination of term rewrite systems (TRSs). In this talk, I would like to
+1. explain the use of interactive SMT solving in my termination tool NaTT, and present ideas for further improvement, for which I am not sure how to encode as standard SMT problems.
+2. investigate a DPLL(T)-like approach for "satisfiability modulo rewriting" (also called (in)feasibility). Such problems appear in termination and confluence analysis of (conditional) TRSs, but so far only expensive tree-automata-based techniques or basic syntactic techniques are known.
 
-__Title__: Second-Order Quantified Boolean Logic
+## Tachio Terauchi
 
-__Abstract__: 
-Second-order quantified Boolean formulas (SOQBFs) generalize quantified Boolean formulas (QBFs) by admitting second-order quantifiers on function variables in addition to first-order quantifiers on atomic variables. Recent endeavors establish that the complexity of SOQBF satisfiability corresponds to the exponential-time hierarchy (EXPH), similar to that of QBF satisfiability corresponding to the polynomial-time hierarchy (PH). This fact reveals the succinct expression power of SOQBFs in encoding decision problems not efficiently doable by QBFs. In this paper, we investigate the second-order quantified Boolean logic with the following main results: First, we present a procedure of quantifier elimination converting SOQBFs to QBFs and a game interpretation of SOQBF semantics. Second, we devise a sound and complete refutation-proof system for SOQBF. Third, we develop an algorithm for countermodel extraction from a refutation proof. Finally, we show potential applications of SOQBFs in system design and multi-agent planning. With these advances, we anticipate practical tools for development.
-
+## Katalin Fazekas
 
 ## Mathias Preiner
 __Title__: CaDiCaL(T): CaDiCaL as CDCL(T) Engine in cvc5
@@ -223,6 +193,21 @@ how to address these weaknesses, and the challenge to combine local search
 with bit-blasting, as implemented in our new SMT solver Bitwuzla, in a
 more hybrid manner that allows information sharing between the two approaches.
 
+## Mutsunori Banbara
+
+__Title__: Hamiltonian Cycle Reconfiguration with Answer Set Programming
+
+__Abstract__:
+The Hamiltonian cycle reconfiguration problem is defined as determining, for a given Hamiltonian cycle problem and two among its feasible solutions, whether one is reachable from another via a sequence of feasible solutions subject to certain transition constraints.  We develop an approach to solving the Hamiltonian cycle reconfiguration problem based on Answer Set Programming (ASP).  Our approach relies on a high-level ASP encoding and delegates both the grounding and solving tasks to an ASP-based solver.  To show the effectiveness of our approach, we conduct experiments on the benchmark set of Flinders Hamiltonian Cycle Project.
+
+
+## Takehide Soh
+
+__Title__: CoRe Challenge 2022/2023: International Competition for Combinatorial Reconfiguration
+
+__Abstract__:
+Combinatorial Reconfiguration is a novel algorithmic concept that provides mathematical models and analysis for "transformations over state spaces." Its appearance ranges from theory to applications.  However, its technical achievements are hard to access.  Thus, it is required to found a common infrastructure for utilizing and applying the algorithmic technology of combinatorial reconfiguration. See this website for more backgrounds.
+Combinatorial Reconfiguration Challenge (CoRe Challenge 2022/2023) is a competition aiming for practically exploring the combinatorial reconfiguration.  CoRe Challenge 2022/2023 targets the Independent Set Reconfiguration (ISR) problem. The ISR problem is one of the most well-studied reconfiguration problems. Theoretically, the problem is PSPACE-complete, which implies that there exist instances such that even a shortest reconfiguration sequence requires a super polynomial steps.
 
 ## Marijn Heule
 
@@ -245,6 +230,25 @@ problem that allows us to have linear time speedups even when using 1000s
 of cores. Together with the set of 29 points without 6-holes constructed
 by Overmars (2002), this determines the last remaining value h(6) = 30.
 
+
+## Jakob Nordström
+
+__Title__: A one-size-fits-all proof logging system?
+
+
+__Abstract__: We propose a unified proof logging system for decision problems, optimization problems, model enumeration problems, and problem reformulations, and semantics for composition of such proofs. We discuss some of the challenges in designing such a proof system and the choices made to overcome them. We base our system on pseudo-Boolean reasoning with 0-1 integer linear programs, which is a superset of conjunctive normal form (CNF). This is the only proof system that can currently support all enhanced SAT solving techniques for decision problems, and the language of 0-1 linear inequalities also makes it convenient to reason about linear objective functions. However, to maintain equisatisfiability of decision problems restrictions for how contraints are deleted must be imposed, and this is also crucial to preserve the optimal value of optimization problem instances. In addition, for projected model enumeration, the use of strengthening rules such as RAT and pseudo-Boolean generalizations of RAT must be carefully restricted in order not to change the set of solutions. Finally, precise definitions are needed of what it would mean to rewrite the objective function and/or constraints of a problem instance while keeping it "the same", and what the semantics should be for proof compositions if a sequence of solvers operations on (translations of) the same problem instance and emit separate proof logs.
+
+This is based on joint work with Bart Bogaerts, Stephan Gocht, Ciaran McCreesh, Magnus O. Myreen, Andy Oertel, and Yong Kiam Tan.
+
+
+## Nina Narodytska
+
+__Title__: Lemur:  Integrating Large Language Models in Automated Program Verification
+
+__Abstract__:
+The demonstrated code-understanding capability of LLMs raises the question of whether they can be used for automated program verification, a task that typically demands high-level abstract reasoning about program properties that is challenging for verification tools. We propose a general methodology to combine the power of LLMs and automated reasoners for automated program verification. We formally describe this methodology as a set of derivation rules and prove its soundness. We instantiate the calculus as a sound automated verification procedure, which led to practical improvements on a set of synthetic and competition benchmarks.
+
+
 ## Masahiro Sakai
 
 __Title__: BNN verification dataset for Max-SAT Evaluation 2020
@@ -263,13 +267,15 @@ problem can be encoded as partial weighted Max-SAT, and we submitted
 problem instances to Max-SAT Evaluation 2020. In this talk, I will
 introduce our encoding and report some results.
 
-## Nina Narodytska
 
-__Title__: Lemur:  Integrating Large Language Models in Automated Program Verification
+
+## Matti Järvisalo
+
+__Title__:
+Incremental Maximum Satisfiability: Interfaces, Solvers and Applications
 
 __Abstract__:
-The demonstrated code-understanding capability of LLMs raises the question of whether they can be used for automated program verification, a task that typically demands high-level abstract reasoning about program properties that is challenging for verification tools. We propose a general methodology to combine the power of LLMs and automated reasoners for automated program verification. We formally describe this methodology as a set of derivation rules and prove its soundness. We instantiate the calculus as a sound automated verification procedure, which led to practical improvements on a set of synthetic and competition benchmarks.
-
+Enabling incremental computations on the level of constraint optimization remains a noticeable challenge. Boolean satisfiability (SAT) solvers allow for incremental computations, which is key to efficient employment of SAT solvers iteratively for developing complex decision and optimization procedures, including maximum satisfiability (MaxSAT) solvers. However, while incremental computations have been identified to have great potential in speeding up especially so-called unsatisfiability-based MaxSAT solving, enabling incremental computations in MaxSAT has remained until very recently to most extent unexplored. In this talk, I will give an overview of recent developments in incremental MaxSAT, including an API supporting the development of incremental solvers and their applications; the new Incremental Track of MaxSAT Evaluations; current availability of  incremental MaxSAT solvers with some more details on  SAT-IP hybrid approach of implicit hitting sets implemented in iMaxHS; and a glance at recent successful applications of incremental MaxSAT solving.
 
 
 ## Roopsha Samanta
