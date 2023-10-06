@@ -83,9 +83,7 @@ Evening: Demos and social interaction.
 * 10:15-10:45       Break
 * 10:45-11:10       Roopsha Samanta  __synthesis of recursive procedures__
 * 11:10-11:30       Naoki Kobayashi __Higher-order model checking and its similarity (?) with SAT solving__
-* 10:30-11:00       Break
-* 11:00-11:30       Nikolaj Bjorner __On Incremental preprocessing for SMT__
-* 11:30-12:00       Discussions 
+* 11:30-11:40       Jie-Hong Roland Jiang __SAT 2024 conference announcement__
 
 # Abstracts
 
