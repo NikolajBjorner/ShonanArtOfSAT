@@ -248,6 +248,12 @@ __Title__: Lemur:  Integrating Large Language Models in Automated Program Verifi
 __Abstract__:
 The demonstrated code-understanding capability of LLMs raises the question of whether they can be used for automated program verification, a task that typically demands high-level abstract reasoning about program properties that is challenging for verification tools. We propose a general methodology to combine the power of LLMs and automated reasoners for automated program verification. We formally describe this methodology as a set of derivation rules and prove its soundness. We instantiate the calculus as a sound automated verification procedure, which led to practical improvements on a set of synthetic and competition benchmarks.
 
+## Miyuki Koshimura
+
+__Title__: Optimal Scheduling for a Vertical Transport Machine with MaxSAT
+
+__Abstract__:
+This study considers optimal scheduling for a vertical transport machine (VTM) with MaxSAT. The VTM is a part of the automated warehouse which stores lots of baggage in shelves. Many pieces of baggage arriving from various locations are transported to designated floors by conveyors and VTM, and stored on shelves on that floor. The movement of the baggage in the VTM is described as a set of Boolean formulas, and those costs are represented by a set of weighted Boolean formulas. The MaxSAT solver finds out an optimal scheduling as a model satisfying the formulas with the minimum cost. Experimental results show that the proposed method can solve the practical problems in reasonable time.
 
 ## Masahiro Sakai
 
