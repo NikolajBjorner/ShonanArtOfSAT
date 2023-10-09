@@ -48,7 +48,7 @@ Evening: Demos and social interaction.
 ### Afternoon 1: Topic session on encoding (part II). 
 
 
-* 14:00-14:30       Kristin Yovinne Rozier    __SAT based explicit LTLf satisfiability checking__
+* 14:00-14:30       Kristin Yvonne Rozier    __SAT based explicit LTLf satisfiability checking__
 * 14:30-15:10       Marijn Heule      __The art of encoding happy endings__
 * 15:10-15:40       Nina Narodytska   [__Invariant generation using LLMs__](./Nina.pdf)
 * 15:40-16:00       break 
@@ -216,6 +216,13 @@ __Title__: CoRe Challenge 2022/2023: International Competition for Combinatorial
 __Abstract__:
 Combinatorial Reconfiguration is a novel algorithmic concept that provides mathematical models and analysis for "transformations over state spaces." Its appearance ranges from theory to applications.  However, its technical achievements are hard to access.  Thus, it is required to found a common infrastructure for utilizing and applying the algorithmic technology of combinatorial reconfiguration. See this website for more backgrounds.
 Combinatorial Reconfiguration Challenge (CoRe Challenge 2022/2023) is a competition aiming for practically exploring the combinatorial reconfiguration.  CoRe Challenge 2022/2023 targets the Independent Set Reconfiguration (ISR) problem. The ISR problem is one of the most well-studied reconfiguration problems. Theoretically, the problem is PSPACE-complete, which implies that there exist instances such that even a shortest reconfiguration sequence requires a super polynomial steps.
+
+## Kristin Yvonne Rozier
+
+__Title__: SAT-Based Explicit LTLf Satisfiability Checking... and Beyond
+
+__Abstract__:
+Driven by the many pertinent applications in robotics, planning, and AI-based applications, we present a SAT-based framework for LTLf (Linear Temporal Logic on Finite Traces) satisfiability checking, first published in AAAI 2019. We use propositional SAT-solving techniques to construct a transition system for the input LTLf formula; satisfiability checking then reduces to a path-search problem over this transition system. Furthermore, we introduce CDLSC (Conflict-Driven LTLf Satisfiability Checking), a novel algorithm that leverages information produced by propositional SAT solvers from both satisfiability and unsatisfiability results. Experimental evaluations show that CDLSC significantly outperforms all other existing approaches for LTLf satisfiability checking, by demonstrating an approximate four-fold speed-up compared to the second-best solver. We then highlight enduring challenges for temporal logic satisfiability, including other temporal logics like LTL and MLTL. We conclude with an overview of currently-open research questions.
 
 ## Marijn Heule
 
