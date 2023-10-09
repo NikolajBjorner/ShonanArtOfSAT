@@ -25,7 +25,7 @@
 
 * 16:00-16:30 Stefan Szeider      [__isomph-free SAT modulo symmetries__](./stefan.pdf)
 * 16:30-17:00 Akihisa Yamada      [__Satisfiability and Term Rewriting__](./AkihisaYamada-slides.pdf)
-* 17:00-17:30 Tachio Terauchi     [__Synthesizing regular expressions__](.TachioTerauchiTalk.pdf)
+* 17:00-17:30 Tachio Terauchi     [__Synthesizing regular expressions__](./TachioTerauchiTalk.pdf)
 * 17:30-18:00 Discussion
   
 
