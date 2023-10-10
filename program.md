@@ -145,7 +145,7 @@ __Abstract__: SAT and SMT are central tools in automatically proving termination
 
 ## Tachio Terauchi
 
-__Title__: Reparing DoS Vulnerability of Real-World Regexes
+__Title__: Repairing DoS Vulnerability of Real-World Regexes
 
 __Abstract__:
 There has been much work on synthesizing and repairing regular expressions ({\em regexes} for short) from examples. These {\em programming-by-example} (PBE) methods help the users write regexes by letting them reflect their intention by examples. However, the existing methods may generate regexes whose matching may take super-linear time and are vulnerable to regex denial of service (ReDoS) attacks. This paper presents the {\em first} PBE repair method that is guaranteed to generate only invulnerable regexes. Importantly, our method can handle {\em real-world regexes} containing {\em lookarounds} and {\em backreferences}. Due to the extensions, the existing formal definitions of ReDoS vulnerabilities that only consider pure regexes are insufficient. Therefore, we first give a novel {\em formal semantics and complexity of backtracking matching algorithms for real-world regexes}, and with them, give the {\em first formal definition of ReDoS vulnerability for real-world regexes}. Next, we present a novel condition called {\em real-world strong 1-unambiguity} that is sufficient for guaranteeing the invulnerability of real-world regexes, and formalize the corresponding PBE repair problem. Finally, we present an algorithm that solves the repair problem. The algorithm builds on and extends the previous PBE methods to handle the real-world extensions and with constraints to enforce the real-world strong 1-unambiguity condition.
