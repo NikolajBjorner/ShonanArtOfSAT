@@ -34,7 +34,7 @@ Evening: Demos and social interaction.
 ## Tuesday
 
 ### Morning 1: Topic session on building SAT services on top of SAT solvers.
-* 9-9:30: Katalin Fazekas     __IPASIR-UP__
+* 9-9:30: Katalin Fazekas    [__IPASIR-UP: User Propagators for CDCL__](./Fazekas-slides.pdf)
 * 9:30-10:00 Mathias Preiner [__CaDiCaL(T): CaDiCaL as CDCL(T) Engine in cvc5__](./MathiasPreiner-slides.pdf)
 * 10:00-10:30 Aina Niemetz   [__Bit-Blasting Meets Local Search in Bitwuzla__](./AinaNiemetz-slides.pdf)
 
@@ -151,6 +151,31 @@ __Abstract__:
 There has been much work on synthesizing and repairing regular expressions ({\em regexes} for short) from examples. These {\em programming-by-example} (PBE) methods help the users write regexes by letting them reflect their intention by examples. However, the existing methods may generate regexes whose matching may take super-linear time and are vulnerable to regex denial of service (ReDoS) attacks. This paper presents the {\em first} PBE repair method that is guaranteed to generate only invulnerable regexes. Importantly, our method can handle {\em real-world regexes} containing {\em lookarounds} and {\em backreferences}. Due to the extensions, the existing formal definitions of ReDoS vulnerabilities that only consider pure regexes are insufficient. Therefore, we first give a novel {\em formal semantics and complexity of backtracking matching algorithms for real-world regexes}, and with them, give the {\em first formal definition of ReDoS vulnerability for real-world regexes}. Next, we present a novel condition called {\em real-world strong 1-unambiguity} that is sufficient for guaranteeing the invulnerability of real-world regexes, and formalize the corresponding PBE repair problem. Finally, we present an algorithm that solves the repair problem. The algorithm builds on and extends the previous PBE methods to handle the real-world extensions and with constraints to enforce the real-world strong 1-unambiguity condition.
 
 ## Katalin Fazekas
+__Title__: IPASIR-UP: User Propagators for CDCL
+
+__Abstract__:
+Modern SAT solvers are frequently embedded as sub-reasoning engines into more
+complex tools for addressing problems beyond the Boolean satisfiability problem.
+Examples include solvers for Satisfiability Modulo Theories (SMT), combinatorial
+optimization, model enumeration and counting. In such use cases, the SAT solver
+is often able to provide relevant information beyond the satisfiability answer.
+Further, domain knowledge of the embedding system (e.g., symmetry properties or
+theory axioms) can be beneficial for the CDCL search, but cannot be efficiently
+represented in clausal form.
+
+In this talk, I will present IPASIR-UP, a general interface that allows to
+inspect and influence the internal behaviour of CDCL SAT solvers. The interface
+captures the most essential functionalities that are sufficient to simplify and
+improve use cases that require a more fine-grained interaction with the SAT
+solver than provided via the standard IPASIR interface. First I will illustrate
+the main functionalities provided by IPASIR-UP. Following that, I will briefly
+describe some open challenges in using IPASIR-UP in combination with some
+complex crucial features of modern SAT solvers, such as inprocessing and proof
+production. At the end, I will shortly present possible ways to address some of
+these challenges.
+
+This is based on joint work with Aina Niemetz, Mathias Preiner, Markus
+Kirchweger, Stefan Szeider, and Armin Biere.
 
 ## Mathias Preiner
 __Title__: CaDiCaL(T): CaDiCaL as CDCL(T) Engine in cvc5
